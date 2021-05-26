@@ -168,3 +168,25 @@ hr {
   border-width: 0;
   border-top: 1px solid #E1E1E1; }
 
+/* Scrollbar
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #E94024;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #E94024;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #E94024;
+}
